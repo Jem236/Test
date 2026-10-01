@@ -1,0 +1,39 @@
+# Allgemeine Angaben, die auf jeder Seite erscheinen (Kopf und Fuß).
+
+name: Scharzfeld
+untertitel: Natur erleben im Südharz
+logo: wappen.jpg
+logo_alt: "Wappen von Scharzfeld: springendes goldenes Einhorn auf rotem Grund"
+
+# Eigene Domain. Leer lassen, solange die Seite unter ...github.io läuft.
+# Wenn gesetzt, wird automatisch die CNAME-Datei für GitHub Pages erzeugt.
+domain: ""
+
+verein:
+  name: Verkehrsverein Scharzfeld-Südharz e.V.
+  adresse:
+    - Harzstraße 79
+    - 37412 Herzberg am Harz – OT Scharzfeld
+  telefon: 05521 99 47 00
+  email: info@scharzfeld-harz.de
+
+fuss_links:
+  - titel: Rechtliches
+    links:
+      - name: Impressum
+        url: Impressum.html
+      - name: Datenschutz
+        url: Datenschutz.html
+  - titel: Wandern & Wetter
+    links:
+      - name: Wander-Termine Harzklub
+        url: https://www.harzklub-scharzfeld.de/
+      - name: Harzer Baudensteig
+        url: http://www.harzer-baudensteig.de/
+      - name: Das aktuelle Wetter
+        url: https://www.wetteronline.de/wetter/herzberg-am-harz
+
+# Alte Adressen der früheren Website -> neue Seite (Weiterleitung)
+weiterleitungen:
+  willkommen.html: ueber-scharzfeld.html
+  uk_verzeichnis.html: unterkuenfte.html

@@ -1,0 +1,15 @@
+<section class="abschnitt {{ bg }}">
+  <div class="wrap zwei">
+    <div>
+      {% if a.titel %}<h2>{{ a.titel }}</h2>{% endif %}
+      <div class="einleitung">{{ a.text | md }}</div>
+      {% if a.knoepfe %}<p class="knoepfe">{% for k in a.knoepfe %}<a class="knopf{% if not loop.first %} hell{% endif %}" href="{{ k.url }}">{{ k.name }}</a> {% endfor %}</p>{% endif %}
+    </div>
+    {% if a.kasten %}
+    <div class="kasten">
+      <h3>{{ a.kasten.titel }}</h3>
+      {{ a.kasten.text | md }}
+    </div>
+    {% endif %}
+  </div>
+</section>

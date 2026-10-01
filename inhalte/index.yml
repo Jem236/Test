@@ -1,0 +1,60 @@
+titel: Harzlich willkommen in Scharzfeld
+seitentitel: Scharzfeld im Südharz – Natur erleben | Verkehrsverein Scharzfeld
+beschreibung: >-
+  Scharzfeld im Südharz: Burgruine Scharzfels, Einhornhöhle, Steinkirche, Wandern auf dem
+  Harzer Baudensteig, Waldschwimmbad und Unterkünfte für Ihren Urlaub im Harz.
+menu: Start
+reihenfolge: 1
+banner: banner-scharzfeld.jpg
+untertitel: Natur erleben am Südrand des Harzes – zwischen Burgruine, Einhornhöhle und Steinkirche.
+
+abschnitte:
+  - typ: einleitung
+    titel: Natur erleben auf der Harzer Sonnenseite
+    text: >-
+      Scharzfeld liegt am Südrand des Harzes und bietet herrliche Natur, behagliche Quartiere
+      und familiär geführte Gastgeber. Hier finden Sie Erholung – und, wenn Sie mögen, eine
+      Menge zu entdecken.
+    knoepfe:
+      - name: Sehenswertes entdecken
+        url: sehenswertes.html
+      - name: Unterkünfte finden
+        url: unterkuenfte.html
+    kasten:
+      titel: Wandern & Wetter
+      text: |
+        - [Wander-Termine des Harzklub Scharzfeld e.V.](https://www.harzklub-scharzfeld.de/)
+        - [Wandern auf dem Harzer Baudensteig](http://www.harzer-baudensteig.de/)
+        - [Das aktuelle Wetter](https://www.wetteronline.de/wetter/herzberg-am-harz)
+
+  - typ: kacheln
+    titel: Scharzfeld auf einen Blick
+    eintraege:
+      - titel: Sehenswertes & Ausflugsziele
+        bild: burgruine-scharzfels.jpg
+        text: Burgruine Scharzfels, Einhornhöhle, Steinkirche und Waldschwimmbad.
+        link: sehenswertes.html
+      - titel: Unterkünfte
+        bild: uk-harzer-hof.jpg
+        text: Hotel, Ferienwohnungen und Gastronomie – direkt bei den Gastgebern buchen.
+        link: unterkuenfte.html
+      - titel: Dorfläden
+        bild: harzstrasse.jpg
+        text: Bäckerei, Hofladen, Café und Handwerk im Ort.
+        link: dorflaeden.html
+      - titel: Vereine
+        bild: st-thomaskirche.jpg
+        text: "Vom Harzklub bis zur Osterfeuergemeinschaft: Dorfleben zum Mitmachen."
+        link: vereine.html
+
+  - typ: galerie
+    titel: Bilder aus Scharzfeld
+    bilder:
+      - datei: ortseingang.jpg
+        text: Ortseingang
+      - datei: bremkestrasse.jpg
+        text: Bremkestraße
+      - datei: harzstrasse.jpg
+        text: Harzstraße
+      - datei: bremke-anger.jpg
+        text: Bremke-Anger

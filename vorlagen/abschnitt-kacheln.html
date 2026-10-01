@@ -1,0 +1,11 @@
+<section class="abschnitt {{ bg }}"{% if a.anker %} id="{{ a.anker }}"{% endif %}>
+  <div class="wrap">
+    {% if a.titel %}<h2>{{ a.titel }}</h2>{% endif %}
+    <div class="raster">
+    {% for k in a.eintraege %}
+      {% set inner %}<div class="bild">{{ k.bild | bild(k.bild_alt or k.titel) }}</div><div class="inhalt"><h3>{{ k.titel }}</h3>{% if k.text %}<p>{{ k.text | mdi }}</p>{% endif %}</div>{% endset %}
+      {% if k.link %}<a class="karte" href="{{ k.link }}"{{ k.link | extern }}>{{ inner }}</a>{% else %}<div class="karte">{{ inner }}</div>{% endif %}
+    {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,53 @@
+titel: Impressum
+beschreibung: Impressum des Verkehrsvereins Scharzfeld-Südharz e.V.
+banner: banner-steinkirche.jpg
+# kein "menu": erscheint nur im Fußbereich
+
+abschnitte:
+  - typ: text
+    schmal: true
+    text: |
+      ## Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG)
+
+      Verkehrsverein Scharzfeld-Südharz e.V.
+      c/o Horst Diedrich
+      Am Brandkopf 7
+      37412 Herzberg am Harz / OT Scharzfeld
+
+      ### Vertreten durch
+
+      [[bitte ergänzen: vertretungsberechtigter Vorstand nach § 26 BGB, mit Namen und Funktion]]
+
+      ### Registereintrag
+
+      Eingetragen im Vereinsregister
+      Registergericht: [[bitte ergänzen: Amtsgericht]]
+      Registernummer: VR 271
+
+      ### Kontakt
+
+      Telefon: 05521 2752
+      E-Mail: [info@scharzfeld-harz.de](mailto:info@scharzfeld-harz.de)
+
+      ### Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
+
+      [[bitte ergänzen: Name und Anschrift der verantwortlichen Person]]
+
+      ### Bild- und Textnachweis
+
+      Fotos: Bildarchiv der Stadt Herzberg am Harz, Verkehrsverein Scharzfeld, S. Fricke, Sarah Diedrich, Detlef Hubrich, Friedel Polley.
+      Texte: Stadt Herzberg, Karl Jägerfeld.
+      Konzept und Gestaltung der ursprünglichen Website: Horst Diedrich.
+      Überarbeitung 2026: [[bitte ergänzen: Name]]
+
+      ### Haftung für Inhalte
+
+      Die Inhalte dieser Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte – insbesondere der Angaben der Gastgeber, Betriebe und Vereine – können wir jedoch keine Gewähr übernehmen. Änderungen teilen Sie uns bitte gerne mit.
+
+      ### Haftung für Links
+
+      Diese Website enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Für diese fremden Inhalte ist stets der jeweilige Anbieter oder Betreiber verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft; rechtswidrige Inhalte waren nicht erkennbar. Werden uns Rechtsverletzungen bekannt, entfernen wir derartige Links umgehend.
+
+      ### Urheberrecht
+
+      Texte, Fotos und Grafiken auf dieser Website unterliegen dem Urheberrecht. Eine Vervielfältigung oder Verwendung – auch auszugsweise – ist nur mit vorheriger Zustimmung des Verkehrsvereins bzw. der jeweiligen Rechteinhaber gestattet.

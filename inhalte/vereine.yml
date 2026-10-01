@@ -1,0 +1,55 @@
+titel: Vereine
+beschreibung: Vereine in Scharzfeld im Südharz – Wandern, Sport, Kultur, Kirche und Brauchtum.
+menu: Vereine
+reihenfolge: 6
+banner: banner-ostern.jpg
+
+abschnitte:
+  - typ: text
+    einleitung: true
+    text: >-
+      Ob Wandern, Sport, Kultur oder Brauchtum – in Scharzfeld wird das Dorfleben von engagierten
+      Vereinen getragen. Neue Mitglieder und Gäste sind überall willkommen.
+
+  - typ: karten
+    eintraege:
+      - kategorie: Heimat & Tourismus
+        name: Verkehrsverein Scharzfeld-Südharz e.V.
+        text: Wir kümmern uns um Gäste, Gastgeber und das Ortsbild – und um diese Website.
+        email: info@scharzfeld-harz.de
+      - kategorie: Wandern
+        name: Harzklub Scharzfeld e.V.
+        text: Wanderungen und Wander-Termine rund um Scharzfeld.
+        web: https://www.harzklub-scharzfeld.de/
+        web_text: Zur Website
+        kontakt: "[[bitte ergänzen: Ansprechpartner mit Telefon oder E-Mail]]"
+      - kategorie: Sport
+        name: TV Guts Muths Scharzfeld
+        text: Der Turnverein im Ort.
+        web: http://www.tv-scharzfeld.de/
+        web_text: Zur Website
+        kontakt: "[[bitte ergänzen: Ansprechpartner mit Telefon oder E-Mail]]"
+      - kategorie: Brauchtum
+        name: Osterfeuergemeinschaft Scharzfeld
+        text: Organisiert das Osterfeuer im Ort.
+        web: https://de-de.facebook.com/Osterfeuergemeinschaft-Scharzfeld-191622717542758/
+        web_text: Facebook-Seite
+        kontakt: "[[bitte ergänzen: Ansprechpartner mit Telefon oder E-Mail]]"
+      - kategorie: Kirche
+        name: Ev. Thomasgemeinde Scharzfeld
+        text: Gottesdienste, Gemeindeleben und die St. Thomaskirche.
+        web: https://thomas-scharzfeld.wir-e.de/aktuelles
+        web_text: Zur Website
+        kontakt: "[[bitte ergänzen: Ansprechpartner mit Telefon oder E-Mail]]"
+      - kategorie: Kultur
+        name: Kunstleben e.V. – Hoftheater Scharzfeld
+        text: Theater, Konzerte und Kulturveranstaltungen im Harzer Hof.
+        web: http://www.hotel-harzerhof.de/
+        web_text: Zur Website
+        kontakt: "[[bitte ergänzen: Ansprechpartner mit Telefon oder E-Mail]]"
+
+  - typ: kasten
+    titel: Ihr Verein fehlt?
+    text: >-
+      Schicken Sie uns Name, kurze Beschreibung, Ansprechpartner und gern ein Foto an
+      [info@scharzfeld-harz.de](mailto:info@scharzfeld-harz.de).

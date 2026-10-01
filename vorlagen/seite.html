@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ seite.seitentitel or (seite.titel ~ ' | ' ~ web.verein.name) }}</title>
+{% if seite.beschreibung %}<meta name="description" content="{{ seite.beschreibung }}">{% endif %}
+<link rel="icon" href="bilder/favicon.ico">
+<link rel="stylesheet" href="css/style.css?v={{ version }}">
+{% if web.domain %}<link rel="canonical" href="https://{{ web.domain }}/{{ datei if datei != 'index.html' else '' }}">{% endif %}
+<meta property="og:title" content="{{ seite.titel }}">
+{% if seite.beschreibung %}<meta property="og:description" content="{{ seite.beschreibung }}">{% endif %}
+{% if seite.banner %}<meta property="og:image" content="bilder/{{ seite.banner }}">{% endif %}
+</head>
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+<header class="kopf">
+  <div class="wrap">
+    <a class="marke" href="index.html">
+      <img src="bilder/{{ web.logo }}" alt="{{ web.logo_alt }}" width="40" height="49">
+      <div><strong>{{ web.name }}</strong><span>{{ web.untertitel }}</span></div>
+    </a>
+    <input type="checkbox" id="nav-schalter" class="nav-schalter" aria-hidden="true">
+    <label for="nav-schalter" class="nav-knopf">☰ Menü</label>
+    <nav class="nav" aria-label="Hauptnavigation">
+      <ul>
+      {% for m in menu %}
+        <li><a href="{{ m.datei }}"{% if m.datei == datei %} aria-current="page"{% endif %}>{{ m.name }}</a></li>
+      {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="banner"{% if seite.banner %} style="background-image:url('bilder/{{ seite.banner }}')"{% endif %}>
+  <div class="wrap">
+    <h1>{{ seite.titel }}</h1>
+    {% if seite.untertitel %}<p>{{ seite.untertitel }}</p>{% endif %}
+  </div>
+</section>
+
+<main id="inhalt">
+{% for a in seite.abschnitte %}
+{% set bg = loop.cycle("hell", "") %}
+{% include "abschnitt-" ~ a.typ ~ ".html" %}
+{% endfor %}
+</main>
+
+<footer class="fuss">
+  <div class="wrap">
+    <div class="spalten">
+      <div>
+        <h2>{{ web.verein.name }}</h2>
+        <p>{{ web.verein.adresse | join('<br>') | safe }}</p>
+        <p>Telefon: {{ web.verein.telefon | telefon }}<br>
+           E-Mail: <a href="mailto:{{ web.verein.email }}">{{ web.verein.email }}</a></p>
+      </div>
+      {% for gruppe in web.fuss_links %}
+      <div>
+        <h2>{{ gruppe.titel }}</h2>
+        <ul>
+        {% for l in gruppe.links %}
+          <li>{{ l.url | link(l.name) }}</li>
+        {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="unten">
+      <span>© {{ web.verein.name }}</span>
+      <a href="#inhalt">Nach oben ↑</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

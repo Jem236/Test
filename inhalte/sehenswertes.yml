@@ -1,0 +1,103 @@
+titel: Sehenswertes & Ausflugsziele
+beschreibung: Burgruine Scharzfels, Einhornhöhle, Steinkirche, Waldschwimmbad und Wanderziele rund um Scharzfeld im Südharz.
+menu: Sehenswertes
+reihenfolge: 3
+banner: banner-steinkirche.jpg
+
+abschnitte:
+  - typ: text
+    einleitung: true
+    text: >-
+      Burgruine, Höhlen, Bauden und Waldschwimmbad – rund um Scharzfeld ist für alle etwas dabei.
+      Viele Ziele erreichen Sie zu Fuß direkt vom Ort aus.
+
+  - typ: kacheln
+    titel: Im Ort und direkt am Ort
+    eintraege:
+      - titel: Burgruine Scharzfels
+        bild: burgruine-scharzfels.jpg
+        text: Sagenumwobene Felsenburg, wahrscheinlich im 11. Jahrhundert angelegt, mit weitem Blick über den Südharz.
+        link: http://www.burgruine-scharzfels.de/
+      - titel: Einhornhöhle
+        bild: einhornhoehle.jpg
+        bild_alt: Blick aus der Einhornhöhle ins Freie
+        text: Die Schauhöhle ist Namensgeberin unseres Wappentiers.
+        link: http://www.einhornhoehle.de/
+      - titel: Steinkirche
+        bild: steinkirche-vorplatz.jpg
+        text: Die Höhlenkirche im Steinberg – ein besonderer Ort für Stille und Staunen.
+      - titel: St. Thomaskirche
+        bild: st-thomaskirche.jpg
+        text: Die evangelische Kirche in Scharzfeld.
+        link: https://thomas-scharzfeld.wir-e.de/aktuelles
+      - titel: Waldschwimmbad
+        bild: waldschwimmbad.jpg
+        text: Baden mitten im Bremketal, mit Beach-Volleyball-Platz.
+        link: http://www.waldschwimmbad-scharzfeld.de/
+      - titel: Campingplatz & Wohnmobile
+        bild: campingplatz-bremketal.jpg
+        text: Campingplatz im Bremketal mit dem Blockhaus als Einkehr. Für Wohnmobile gibt es den Wohnmobilstellplatz am Südharz.
+        link: http://www.wohnmobilstellplatzamsuedharz.de
+
+  - typ: kacheln
+    titel: Wandern & Einkehr
+    eintraege:
+      - titel: Wanderbaude Einhornhöhle
+        bild: wanderbaude-einhornhoehle.jpg
+        text: Einkehr am Weg zur Höhle.
+      - titel: Großer Knollen
+        bild: grosser-knollen.jpg
+        text: Wandervorschlag mit Aussichtsturm und Baude.
+      - titel: Wassertretstelle
+        bild: wassertretstelle.jpg
+        text: Am Baudensteig-Rundweg 5 – Erfrischung für müde Füße.
+        link: http://www.harzer-baudensteig.de/
+      - titel: Blockhaus im Bremketal
+        bild: blockhaus-bremketal.jpg
+        text: Restaurant mit Biergarten am Campingplatz.
+        link: http://www.restaurant-blockhaus.com/restaurant/
+      - titel: Frühstückscafé Gottseidank
+        bild: cafe-gottseidank.jpg
+        text: Frühstück und Kaffee in der Harzstraße 21.
+
+  - typ: kasten
+    titel: Wandern & Wetter
+    text: |
+      - [Wander-Termine des Harzklub Scharzfeld e.V.](https://www.harzklub-scharzfeld.de/)
+      - [Wandern auf dem Harzer Baudensteig](http://www.harzer-baudensteig.de/)
+      - [Das aktuelle Wetter](https://www.wetteronline.de/wetter/herzberg-am-harz)
+
+  - typ: galerie
+    titel: Weitere Impressionen
+    bilder:
+      - datei: ruine.jpg
+        text: An der Burgruine
+      - datei: blick-aus-steinkirche.jpg
+        text: Blick aus der Steinkirche
+      - datei: sehenswert-eingang.jpg
+        text: Impression aus Scharzfeld
+      - datei: turm.jpg
+        text: Impression aus Scharzfeld
+
+  - typ: links
+    titel: Badelandschaften in der Umgebung
+    text: "Wenn das Wetter nicht mitspielt: Diese Bäder erreichen Sie von Scharzfeld aus in kurzer Fahrzeit."
+    eintraege:
+      - name: Vitamar – Bad Lauterberg
+        url: http://www.vitamar.de/
+      - name: Kirchberg-Therme – Bad Lauterberg
+        url: http://www.kirchbergtherme.de/
+      - name: Salztal-Paradies – Bad Sachsa
+        url: http://www.salztal-paradies.de/
+      - name: ALOHA Aqualand – Osterode
+        url: http://www.aqualand-osterode.de/
+
+  - typ: links
+    titel: Kultur & Freizeit
+    eintraege:
+      - name: Theater & Events im Harzer Hof
+        url: http://www.hotel-harzerhof.de/
+      - name: Kinowelt
+        url: http://www.kinowelt-online.de/
+      - name: Luftsportverein Bad Lauterberg
+        url: http://www.lsv-badlauterberg.de/

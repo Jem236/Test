@@ -1,0 +1,27 @@
+<section class="abschnitt {{ bg }}"{% if a.anker %} id="{{ a.anker }}"{% endif %}>
+  <div class="wrap">
+    {% if a.titel %}<h2>{{ a.titel }}</h2>{% endif %}
+    {% set mit_bild = a.eintraege | selectattr('bild') | list | length > 0 %}
+    <div class="{{ 'uk' if mit_bild else 'geschaefte' }}">
+    {% for e in a.eintraege %}
+      <article class="{{ 'uk-eintrag' if mit_bild else 'geschaeft' }}">
+        {% if mit_bild %}<div class="bild">{% if e.bild %}{{ e.bild | bild(e.name) }}{% endif %}</div>{% endif %}
+        <div>
+          <div class="typ">{{ e.kategorie }}</div>
+          <h3>{{ e.name }}</h3>
+          {% if e.text %}<p>{{ e.text | mdi }}</p>{% endif %}
+          {% if e.ausstattung %}<ul class="merkmale">{% for m in e.ausstattung %}<li{% if m == 'Harzer Baudensteig' %} class="hbs"{% endif %}>{{ m }}</li>{% endfor %}</ul>{% endif %}
+          <dl class="kontakt">
+            {% if e.person %}<dt>{{ 'Gastgeber' if mit_bild else 'Inhaber' }}</dt><dd>{{ e.person }}</dd>{% endif %}
+            {% if e.adresse %}<dt>Adresse</dt><dd>{{ e.adresse }}{% if seite.ort %}, {{ seite.ort }}{% endif %}</dd>{% endif %}
+            {% if e.telefon %}<dt>Telefon</dt><dd>{{ e.telefon | telefon }}</dd>{% endif %}
+            {% if e.web %}<dt>Internet</dt><dd>{{ e.web | link(e.web_text) }}</dd>{% endif %}
+            {% if e.email %}<dt>E-Mail</dt><dd><a href="mailto:{{ e.email }}">{{ e.email }}</a></dd>{% endif %}
+            {% if e.kontakt %}<dt>Kontakt</dt><dd>{{ e.kontakt | mdi }}</dd>{% endif %}
+          </dl>
+        </div>
+      </article>
+    {% endfor %}
+    </div>
+  </div>
+</section>

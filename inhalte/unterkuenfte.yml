@@ -1,0 +1,122 @@
+titel: Unterkünfte
+seitentitel: Unterkünfte in Scharzfeld – Hotels & Ferienwohnungen | Verkehrsverein Scharzfeld
+beschreibung: Hotels, Ferienwohnungen und Gastronomie in Scharzfeld im Südharz – mit Ausstattung und direkten Kontaktdaten der Gastgeber.
+menu: Unterkünfte
+reihenfolge: 4
+banner: banner-sonnenuntergang.jpg
+untertitel: Hotels, Ferienwohnungen und Gastronomie – direkt bei den Gastgebern buchen.
+
+# Bei jedem Eintrag sind nur "name" und "kategorie" Pflicht. Alles andere
+# (bild, ausstattung, person, adresse, telefon, web, web_text, email) kann fehlen.
+# Mehrere Telefonnummern als Liste angeben.
+# PLZ/Ort wird bei Unterkünften automatisch ergänzt ("ort" auf Seitenebene).
+ort: 37412 Scharzfeld
+
+abschnitte:
+  - typ: text
+    einleitung: true
+    text: >-
+      Ob Hotel, Ferienwohnung oder Ferienhof – unsere Gastgeber freuen sich auf Sie.
+      Bitte buchen Sie direkt bei den Unterkünften.
+
+  - typ: sprungmarken
+
+  - typ: karten
+    titel: Hotels
+    anker: hotels
+    eintraege:
+      - kategorie: Hotel
+        name: Hotel Harzer Hof
+        bild: uk-harzer-hof.jpg
+        ausstattung: [Motorradfreundlich, Mountainbike-freundlich, Haustiere willkommen, Restaurant, Diätküche, Handtücher & Bettwäsche, Gartenmöbel, Nichtraucher, Balkon/Terrasse, Familienfreundlich, Kinderbett, Telefon im Zimmer, Parkplatz, Garten, Rad- & Wanderwege, Harzer Baudensteig]
+        adresse: Harzstraße 79
+        telefon: 05521 99 47 00
+        web: http://www.hotel-harzerhof.de
+        email: info@hotel-harzerhof.de
+
+  - typ: karten
+    titel: Restaurant
+    anker: restaurant
+    eintraege:
+      - kategorie: Restaurant
+        name: Blockhaus am Campingplatz
+        bild: uk-blockhaus.jpg
+        ausstattung: [Restaurant, Camping, Parkplatz, Rad- & Wanderwege, Harzer Baudensteig]
+        adresse: Bremkestraße 35
+        telefon: 05521 99 99 70
+        web: http://www.restaurant-blockhaus.com/restaurant/
+
+  - typ: karten
+    titel: Ferienwohnungen
+    anker: ferienwohnungen
+    eintraege:
+      - kategorie: Ferienwohnung
+        name: Haus Bohne
+        bild: uk-haus-bohne.jpg
+        ausstattung: [Parkplatz, Handtücher & Bettwäsche, Haustiere willkommen, Gartenmöbel, TV, Nichtraucher, Familienfreundlich, Kinderbett, Rad- & Wanderwege, Harzer Baudensteig]
+        person: Cristel Bohne
+        adresse: E-Werk-Weg 2
+        telefon: 05521 1825
+        web: http://www.ferienwohnung-bohne.de
+        email: info@ferienwohnung-bohne.de
+
+      - kategorie: Ferienwohnung
+        name: FeWo Haus Diedrich
+        bild: uk-haus-diedrich.jpg
+        ausstattung: [Parkplatz, Nichtraucher, Familienfreundlich, Gartenmöbel, Garten, Rad- & Wanderwege, WLAN kostenlos, Harzer Baudensteig]
+        person: Gundela Diedrich
+        adresse: Am Brandkopf 7
+        telefon: 05521 2752
+        web: http://www.fewohausdiedrich.de
+        email: vr.diedrich@t-online.de
+
+      - kategorie: Ferienwohnung
+        name: Haus Mitschka
+        bild: uk-haus-mitschka.jpg
+        ausstattung: [Parkplatz, Handtücher & Bettwäsche, Garage, Gartenmöbel, Kinderbett, Garten, Nichtraucher, Balkon/Terrasse, Harzer Baudensteig]
+        person: Adele Mitschka
+        adresse: Försterbreite 19
+        telefon: 05521 2863
+        email: A.Mitschka@scharzfeld.de
+
+      - kategorie: Ferienhof
+        name: Ferienhof Wiegmann
+        bild: uk-ferienhof-wiegmann.jpg
+        ausstattung: [Handtücher & Bettwäsche, Parkplatz, Fahrradverleih, Garten, Gartenmöbel, Familienfreundlich, Kinderbett, Radio, TV, Rad- & Wanderwege, Harzer Baudensteig]
+        adresse: Klimpstraße 11
+        telefon: 05521 1702
+        email: FerienhofWiegmann@web.de
+
+      - kategorie: Ferienwohnung
+        name: Ferienwohnung Mühlentaum
+        bild: uk-muehlentaum.jpg
+        ausstattung: [Parkplatz, Garten, Handtücher & Bettwäsche, TV, Mountainbike-freundlich, Nichtraucher, Familienfreundlich, Rad- & Wanderwege, WLAN kostenlos, Harzer Baudensteig]
+        person: Jens Köhler
+        adresse: Harzstraße 28
+        telefon: 05521 2490
+
+      - kategorie: Ferienwohnung
+        name: Ferienwohnung An der Bremke
+        bild: uk-an-der-bremke.jpg
+        ausstattung: [Parkplatz, Handtücher & Bettwäsche, Gartenmöbel, Garten, TV, Balkon/Terrasse, Fahrradverleih, Rad- & Wanderwege, Mountainbike-freundlich, WLAN kostenlos, Harzer Baudensteig]
+        person: Kerstin Rodzis
+        adresse: Bremkestraße 11
+        telefon: [05521 75 30 54, 05521 99 88 22]
+        web: http://www.an-der-bremke.de
+        email: fw@an-der-bremke.de
+
+      - kategorie: Ferienwohnung
+        name: Ferienwohnung Café Gottseidank
+        bild: uk-cafe-gottseidank.jpg
+        ausstattung: [Parkplatz, Handtücher & Bettwäsche, TV, Rad- & Wanderwege, Mountainbike-freundlich, Harzer Baudensteig]
+        person: Petra Aderhold
+        adresse: Harzstraße 21
+        telefon: 05521 71625
+        web: https://de-de.facebook.com/pg/Fr%C3%BChst%C3%BCcks-cafe-Gott-sei-Dank-757221337667121/about/
+        web_text: Facebook-Seite
+
+  - typ: kasten
+    titel: Sie vermieten in Scharzfeld?
+    text: >-
+      Sie möchten hier aufgenommen werden oder Ihre Angaben haben sich geändert?
+      Schreiben Sie uns an [info@scharzfeld-harz.de](mailto:info@scharzfeld-harz.de?subject=Unterkunftsverzeichnis).

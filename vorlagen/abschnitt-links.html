@@ -1,0 +1,11 @@
+<section class="abschnitt {{ bg }}"{% if a.anker %} id="{{ a.anker }}"{% endif %}>
+  <div class="wrap">
+    {% if a.titel %}<h2>{{ a.titel }}</h2>{% endif %}
+    {% if a.text %}<p class="leise">{{ a.text | mdi }}</p>{% endif %}
+    <ul class="linkliste">
+    {% for l in a.eintraege %}
+      <li>{{ l.url | link(l.name) }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+</section>

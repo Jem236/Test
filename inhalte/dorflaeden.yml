@@ -1,0 +1,67 @@
+titel: Dorfläden & Betriebe
+beschreibung: Bäckerei, Hofladen, Café, Friseur und Handwerksbetriebe in Scharzfeld im Südharz.
+menu: Dorfläden
+reihenfolge: 5
+banner: banner-scharzfeld.jpg
+
+abschnitte:
+  - typ: text
+    einleitung: true
+    text: >-
+      Frische Brötchen, Produkte vom Hof, ein Café für die Pause – und Handwerk, wenn man es braucht.
+      Diese Betriebe in Scharzfeld freuen sich über Ihren Besuch.
+
+  - typ: karten
+    titel: Essen & Einkaufen
+    eintraege:
+      - kategorie: Bäckerei
+        name: Bäckerei Kaufmann
+        person: Britta Kaufmann
+        adresse: Harzstraße 25
+        telefon: 05521 2381
+      - kategorie: Hofladen
+        name: Hofladen Grosse
+        person: Crista Grosse
+        adresse: Ohfeld 1
+        telefon: 05521 1056
+        web: https://www.service-vom-hof.de/index.cfm?m=b&b=106&o=64
+        web_text: Website
+      - kategorie: Café
+        name: Frühstückscafé Gottseidank
+        person: Petra Aderhold
+        adresse: Harzstraße 21
+        telefon: 05521 71625
+
+  - typ: karten
+    titel: Dienstleistung & Handwerk
+    eintraege:
+      - kategorie: Friseur
+        name: Haarlekin
+        person: Carmen Illert
+        adresse: Pöhlder Straße 2A
+        telefon: 05521 99 64 822
+      - kategorie: Massagepraxis & Sauna
+        name: Mund-Waldmann
+        person: Heike Mund-Waldmann
+        adresse: Hinterstraße 32
+        telefon: 05521 5662
+      - kategorie: Heizung & Sanitär
+        name: Gehrig
+        person: Rudolf Gehrig
+        adresse: Harzstraße 40
+        telefon: 05521 2646
+      - kategorie: Autohaus
+        name: Autohaus Fricke
+        person: Svenja Fricke
+        adresse: Fliederweg 3
+        telefon: 05521 99 77-0
+      - kategorie: Seniorenzentrum
+        name: Seniorenzentrum Diedrich
+        adresse: Am Brandkopf 28
+        telefon: "[[bitte ergänzen: Telefonnummer prüfen – alte Seite hatte „0552-3773“]]"
+        web: https://seniorenzentrum-diedrich.de/
+        web_text: Website
+
+  - typ: kasten
+    titel: Ihr Betrieb fehlt?
+    text: Schreiben Sie uns an [info@scharzfeld-harz.de](mailto:info@scharzfeld-harz.de) – der Eintrag ist kostenlos.

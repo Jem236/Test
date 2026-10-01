@@ -1,0 +1,8 @@
+<section class="abschnitt {{ bg }}"{% if a.anker %} id="{{ a.anker }}"{% endif %}>
+  <div class="wrap">
+    <div class="kasten">
+      {% if a.titel %}<h3>{{ a.titel }}</h3>{% endif %}
+      {{ a.text | md }}
+    </div>
+  </div>
+</section>

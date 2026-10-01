@@ -1,0 +1,13 @@
+<section class="abschnitt {{ bg }}"{% if a.anker %} id="{{ a.anker }}"{% endif %}>
+  <div class="wrap">
+    {% if a.titel %}<h2>{{ a.titel }}</h2>{% endif %}
+    {% if a.bild %}
+    <div class="geschichte">
+      {{ a.bild | bild(a.bild_alt or a.titel) }}
+      <div>{{ a.text | md }}</div>
+    </div>
+    {% else %}
+    <div class="{% if a.einleitung %}einleitung{% endif %}{% if a.schmal %} rechtstext{% endif %}">{{ a.text | md }}</div>
+    {% endif %}
+  </div>
+</section>

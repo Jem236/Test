@@ -1,0 +1,9 @@
+<section class="abschnitt {{ bg }} kurz">
+  <div class="wrap">
+    <ul class="filter">
+    {% for x in seite.abschnitte if x.anker and x.titel %}
+      <li><a href="#{{ x.anker }}">{{ x.titel }}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+</section>

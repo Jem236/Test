@@ -1,0 +1,50 @@
+titel: Datenschutzerklärung
+beschreibung: Datenschutzerklärung des Verkehrsvereins Scharzfeld-Südharz e.V.
+banner: banner-ostern.jpg
+
+# WICHTIG: Diese Erklärung beschreibt den Betrieb über GitHub Pages ohne Cookies,
+# Tracking, Formulare oder eingebundene Inhalte Dritter. Wer davon etwas ändert
+# (z. B. Karte, Video, Schriftart von Google, Kontaktformular, anderer Hoster),
+# muss diesen Text anpassen. Siehe CLAUDE.md.
+
+abschnitte:
+  - typ: text
+    schmal: true
+    text: |
+      ## 1. Verantwortlicher
+
+      Verantwortlich für die Datenverarbeitung auf dieser Website ist:
+      Verkehrsverein Scharzfeld-Südharz e.V., c/o Horst Diedrich, Am Brandkopf 7, 37412 Herzberg am Harz / OT Scharzfeld
+      E-Mail: [info@scharzfeld-harz.de](mailto:info@scharzfeld-harz.de) · Telefon: 05521 2752
+
+      ## 2. Grundsätzliches
+
+      Diese Website ist bewusst schlank gehalten: Wir verwenden **keine Cookies, keine Analyse- oder Tracking-Werkzeuge, keine Kontaktformulare und keine eingebundenen Inhalte Dritter** (z. B. Karten, Videos, Social-Media-Plugins oder extern geladene Schriften). Alle Schriften und Bilder werden vom selben Server geladen wie die Website selbst.
+
+      ## 3. Hosting über GitHub Pages
+
+      Diese Website wird über den Dienst GitHub Pages bereitgestellt. Anbieter ist die GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA (ein Unternehmen der Microsoft-Gruppe).
+
+      Beim Aufruf der Seiten verarbeitet GitHub technisch notwendige Verbindungsdaten, insbesondere Ihre IP-Adresse, Datum und Uhrzeit des Abrufs sowie die aufgerufene Seite. Nach Angaben von GitHub wird die IP-Adresse von Besucherinnen und Besuchern aus Sicherheitsgründen protokolliert und gespeichert. Wir selbst erhalten keinen Zugriff auf diese Daten.
+
+      Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse liegt in einer zuverlässigen, sicheren und für einen ehrenamtlich geführten Verein kostengünstigen Bereitstellung der Website.
+
+      Dabei werden Daten in die USA übermittelt. GitHub ist nach dem EU-US Data Privacy Framework zertifiziert; für die USA besteht insoweit ein Angemessenheitsbeschluss der EU-Kommission (Art. 45 DSGVO). Weitere Informationen finden Sie in der Datenschutzerklärung von GitHub: [docs.github.com/site-policy/privacy-policies/github-privacy-statement](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement)
+
+      ## 4. Kontakt per E-Mail oder Telefon
+
+      Wenn Sie uns per E-Mail oder telefonisch kontaktieren, verarbeiten wir Ihre Angaben (z. B. Name, E-Mail-Adresse, Ihr Anliegen) ausschließlich zur Bearbeitung Ihrer Anfrage. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage auf eine Mitgliedschaft oder einen Eintrag in unserem Verzeichnis zielt, ansonsten Art. 6 Abs. 1 lit. f DSGVO. Wir löschen die Daten, sobald sie nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungspflichten bestehen. E-Mails an uns werden über [[bitte ergänzen: Anbieter des Postfachs info@scharzfeld-harz.de]] empfangen.
+
+      ## 5. Links zu anderen Websites
+
+      Unsere Seiten enthalten Links zu Websites anderer Anbieter (z. B. Gastgeber, Vereine, Ausflugsziele). Erst wenn Sie einen solchen Link anklicken, werden Daten an den jeweiligen Anbieter übertragen. Für deren Datenverarbeitung ist der jeweilige Anbieter verantwortlich.
+
+      ## 6. Ihre Rechte
+
+      Sie haben das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) sowie Widerspruch gegen Verarbeitungen auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (Art. 21). Wenden Sie sich dazu einfach an die oben genannte Adresse.
+
+      Außerdem können Sie sich bei einer Datenschutz-Aufsichtsbehörde beschweren (Art. 77 DSGVO). Für uns zuständig ist: Die Landesbeauftragte für den Datenschutz Niedersachsen, Prinzenstraße 5, 30159 Hannover.
+
+      ## 7. Stand
+
+      Diese Datenschutzerklärung hat den Stand Oktober 2026.

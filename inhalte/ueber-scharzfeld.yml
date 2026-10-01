@@ -1,0 +1,46 @@
+titel: Über Scharzfeld
+beschreibung: Scharzfeld am Südrand des Harzes – Ferienort mit Geschichte, Wappen mit Einhorn und viel Natur.
+menu: Über Scharzfeld
+reihenfolge: 2
+banner: banner-ritterstein.jpg
+
+abschnitte:
+  - typ: text
+    einleitung: true
+    text: |
+      Der am Südrand des Harzes gelegene Ferienort Scharzfeld bietet seinen Gästen mit seinem Umland herrliche Natur, behagliche Quartiere, familiär geführte Hotels, Pensionen und Privatunterkünfte.
+
+      Hier finden Sie die Erholung, die Sie nach der Hektik des Alltags suchen. Aber nicht nur Naturliebhaber kommen in Scharzfeld auf ihre Kosten – rund um den Ort ist für alle etwas dabei: die sagenumwobene Burgruine Scharzfels, die Steinkirche im Steinberg, die Einhornhöhle, ein Waldschwimmbad mit Beach-Volleyball-Platz sowie kurze und lange Wanderziele mit Aussichtstürmen und Bauden. Selbst Golfen, Segeln, Tennis, Kegeln und Bogenschießen sind möglich – um nur das Wichtigste zu nennen.
+
+      **Haben wir Ihr Interesse geweckt? Wir freuen uns auf Sie!**
+
+  - typ: text
+    titel: Geschichte & Wappen
+    anker: geschichte
+    bild: wappen.jpg
+    bild_alt: Wappen von Scharzfeld mit springendem Einhorn
+    text: |
+      Der über 1055 Jahre alte Ort Scharzfeld führte ursprünglich das Wappen der Grafen von Scharzfels als Gemeindewappen. Die Burg Scharzfels wurde wahrscheinlich im 11. Jahrhundert zum Schutz der Abtei in Pöhlde angelegt. Mit Sigebodo taucht 1132 erstmals ein Edler auf, der sich nach dieser Burg benennt. Um 1295 verschwinden die Grafen von Scharzfels aus den Urkunden.
+
+      Der Chronist Heinrich Wend beschreibt im 17. Jahrhundert das Wappen der Grafen von Scharzfels, einer Seitenlinie der Grafen von Lutterberg, die dieses Wappen ebenfalls führten:
+
+      > „Sie haben geführet in einem Rothem Felde einen Güldenen Löwen auff drey Güldenen Balken stehend.“
+
+      1955 gab die Gemeinde das Grafenwappen auf und entschied sich für das einfache, aber eindrucksvolle Wappen mit dem springenden Einhorn. Die Farben Rot und Gold wurden gewählt, um die geschichtliche Verbundenheit zum ehemaligen Fürstentum Grubenhagen auszudrücken, dessen Wappenfarben dieselben sind wie die der Grafen von Scharzfels. **Das Einhorn steht für die Scharzfelder Einhornhöhle.**
+
+  - typ: galerie
+    titel: Zeichnungen & Stiche
+    stil: historisch
+    bilder:
+      - datei: stich-einhornhoehle.jpg
+        text: Historischer Stich der Einhornhöhle
+      - datei: gemaelde-burg-scharzfels.jpg
+        text: Burg Scharzfels (Gemälde)
+      - datei: zeichnung-burg-scharzfels.jpg
+        text: Burg Scharzfels (Zeichnung)
+      - datei: zeichnung-burg.jpg
+        text: Burg Scharzfels (Federzeichnung)
+      - datei: stich-scharzfeld.jpg
+        text: Historische Ortsansicht
+      - datei: blick-vom-oderberg.jpg
+        text: Blick vom Oderberg
